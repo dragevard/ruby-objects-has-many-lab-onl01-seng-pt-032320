@@ -14,5 +14,8 @@ class Song
   end
   
   def artist_name
-    if artist.name == artist
+    if @artist == artist 
+      @artist.name 
+    end
+  end
 end
